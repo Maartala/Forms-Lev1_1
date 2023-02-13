@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+    
+}
+
+label{
+    font-weight: 600;  
+}
+
+div{
+    margin-top: 1%;
+}
+
+input {
+    width: 300px;
+    padding: 4px;
+}
+
+.Name{
+    width: 141px;
+}
+
+.Email{
+    width: 300px;
+}
+.Thema{
+    width: 309px;
+}
+
+textarea{
+    width: 300px;
+    padding: 4px;
+}
+
+input[type=submit] {
+    background-color: rgb(12, 175, 181);
+    color: white;
+    width: 309px;
+    padding: 5px 0;
+    border: none;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(16, 2, 80);
+    color: white;
+}
+
+form div:nth-of-type(1) label:after{
+    content: "*";
+    color: red;
+}
+
+form div:nth-of-type(2) label:after{
+    content: "*";
+    color: red;
+}
+
+form div:nth-of-type(4) label:after{
+    content: "*";
+    color: red;
+}
